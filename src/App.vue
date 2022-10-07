@@ -56,15 +56,15 @@ export default ({
                 this.game.status = false;//Победа
                 this.game.timer = false;
               }
-              else if (player) {
+              else {
                   const cell = selectCell([...this.fieldState],this.status.dif);
-                  if (cell)
-                    this.clickOnCell(cell, !player) 
-                  else {
+                  if (!cell) {
                     this.winMes = 'Ничья'
                     this.game.status = false; //Ничья
                     this.game.timer = false;
                   }
+                  else if (cell && player)
+                    this.clickOnCell(cell, !player) 
               }
           }
         },
