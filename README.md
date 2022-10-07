@@ -1,24 +1,8 @@
-# krestikinoliki
+# Игра крестики-нолики (javascript + vue)
 
-## Project setup
+## Первый проект в фреймворке Vue.js
 ```
-npm install
-```
+Адаптирована для любого разрешения экрана в google chrome, но может некорректно отображаться в других браузерах (в Mi браузере на телефоне кнопка рестарта заезжает на таймер)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Игра полностью функционирует, но следует оптимизировать производительность и доделать алгоритм стратегии компьютера (алгоритм Минимакса).
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
